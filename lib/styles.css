@@ -1,0 +1,108 @@
+body {
+  background-color: black;
+  display: flex;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
+}
+
+@font-face {
+  font-family: odin;
+  src: url(Norse-Bold.otf);
+}
+
+.image{
+  position: relative;
+  width: 30%;
+  margin-left: 15%;
+  z-index: -1;
+}
+
+#odin-head {
+  background-color: rgb(71, 78, 78, 0.5);
+  width: 100%;
+  position: absolute;
+  top: 10%;
+  left: 0;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: odin;
+  font-size: 100px;
+  z-index: 1;
+}
+
+
+img[src="pouring-tea.jpg"] {
+  max-width: 190%;
+  max-height: 100vh;
+}
+
+img[src="odin-lined.png"]{
+  height: 150px;
+}
+
+.fill-out{
+  color: black;
+  background-color: whitesmoke;
+  width: 60%;
+  height: 100vh;
+  margin-right: 15%;
+}
+
+.top {
+  padding: 15% 15% 5% 6vh;
+  font-size: xx-large;
+}
+
+legend {
+  font-size: xx-large;
+  font-weight: 700;
+  margin-left: 6vh;
+}
+
+form {
+  box-shadow: 0 0 5px 1px rgb(71, 78, 78);
+  margin-top: 0%;
+  height: 30%;
+  padding: 2% 5% 0% 0%;
+  font-size: large;
+  justify-content: flex-start;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 90%;
+  width: 87%;
+}
+
+label {
+  display: block;
+}
+
+input {
+  width: 27vh;
+  height: 30px;
+}
+
+.inner1, button {
+  font-size: x-large;
+  /* background-color: rgb(205, 205, 205); */
+  padding: 4vh 0 0 6vh;
+}
+
+button {
+  padding: 20px 70px;
+  border-radius: 15px;
+  background-color: rgb(71, 78, 78);
+  color: rgb(255, 255, 255);
+  margin-bottom: 1vh;
+}
+
+a {
+  color: rgb(71, 78, 78);
+  text-decoration: none;
+}
